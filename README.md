@@ -24,7 +24,6 @@
 ├── clsn1_tst.csv            # 測試資料集
 ├── clsn1_ans.csv            # 測試資料 + 預測分類結果
 │
-├── report1.pdf              # 模型設計與實驗說明文件
 ├── report1.h5               # 訓練完成的神經網路模型
 ├── report1_source.pdf       # 原始程式碼（PDF）
 │
@@ -82,17 +81,6 @@ python train_classifier.py
 
 **說明：**
 - 本圖展示訓練集（Training Set）與驗證集（Validation Set）在不同訓練 epoch 下的性能變化情況。
-
----
-
-## 📄 技術文件說明
-
-### `report1.pdf`
-內容包含：
-- 模型設計理念
-- 網路架構說明
-- 訓練流程與參數設定
-- 實驗結果與觀察分析
 
 ---
 
