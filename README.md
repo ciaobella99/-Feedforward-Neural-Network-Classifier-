@@ -76,8 +76,7 @@ python train_classifier.py
 - 以及模型對應的分類預測結果
 - 每一列對應一筆測試樣本
 ### 1) 模型訓練準確率（Figure 1）
-![訓練結果可視化](<img width="640" height="480" alt="accuracy" src="https://github.com/user-attachments/assets/964e8ed7-9c1d-4612-bcf9-b5ba99417be2" />
-)
+![訓練結果可視化](images/accuracy.png)
 
 **說明：**
 - 本圖展示訓練集（Training Set）與驗證集（Validation Set）在不同訓練 epoch 下的性能變化情況。
