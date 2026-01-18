@@ -82,7 +82,7 @@ python train_classifier.py
 - 本圖展示訓練集（Training Set）與驗證集（Validation Set）在不同訓練 epoch 下的性能變化情況。
 
 ### 2) 模型訓練Loss（Figure 2）
-![訓練結果可視化](images/Loss.png)
+![訓練結果可視化](images/loss.png)
 
 **說明：**
 - 訓練與驗證資料集在訓練過程中的損失函數收斂情形
