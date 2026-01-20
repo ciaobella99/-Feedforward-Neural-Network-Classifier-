@@ -2,9 +2,6 @@
 本專案實作一個 **前饋式神經網路（Feedforward Neural Network, FNN）分類系統**，  
 針對給定的結構化資料進行訓練，並完成模型推論、結果輸出與完整技術文件整理。
 
-專案重點放在 **模型設計、資料處理流程、推論結果輸出格式**，適合作為  
-深度學習分類任務的實作範例與作品集展示。
-
 ---
 
 ## 專案目標
@@ -22,12 +19,11 @@
 .
 ├── clsn1_trn.csv            # 訓練資料集（最後一欄為類別標籤）
 ├── clsn1_tst.csv            # 測試資料集
-├── clsn1_ans.csv            # 測試資料 + 預測分類結果
+├── clsn1_ans.csv            # 測試資料和預測分類結果
 │
 ├── report1.h5               # 訓練完成的神經網路模型
-├── report1_source.pdf       # 原始程式碼（PDF）
 │
-├── train_classifier.py      # （選用）模型訓練與推論程式
+├── train_classifier.py      # source code
 └── README.md                # 專案說明文件
 ```
 
@@ -50,11 +46,9 @@
 - 損失函數：Categorical Cross-Entropy
 - 最佳化方法：Adam Optimizer
 
-詳細模型架構與超參數設定請參閱 `report1.pdf`。
-
 ---
 
-## 使用方式（如有提供原始碼）
+## 使用方式
 
 ```bash
 python train_classifier.py
@@ -69,7 +63,7 @@ python train_classifier.py
 
 ---
 
-## 📊 輸出結果說明
+## 輸出結果說明
 
 ### `clsn1_ans.csv`
 - 包含原始測試資料
